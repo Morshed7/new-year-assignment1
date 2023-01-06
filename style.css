@@ -1,0 +1,35 @@
+/*Banner Styles*/
+
+.banner{
+    margin-top: 0;
+   background: url(images/banner/banner1.png);
+    padding: 300px 0 200px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 810px;
+    text-align: right;
+  
+}
+.banner_title{
+    font-size: 100px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.banner_description{
+    font-size: 20px;
+    line-height: 1.5;
+}
+.btn_primari{
+   margin-top: 20px;
+   padding: 25px 35px 25px 35px;
+   text-align: center;
+   border-radius: 12px;
+   background-color: #FD7A00;
+   font-size: 40px;
+   color: white;
+}
+/* My failures of previous year */
+.my_failures{
+    display: flex;
+}
