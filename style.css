@@ -1,6 +1,7 @@
 /*-----------------------------Banner Styles-----------------------------*/
 *{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .container{
     width: 70%;
@@ -15,12 +16,9 @@
     background-size: cover;
     height: 810px;
     text-align: right;
-
-
-  
 }
 .banner_title{
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 800;
     margin-bottom: 25px;
     padding-top: 200px;
@@ -47,7 +45,6 @@
     align-items: center;
     gap: 100px;
     margin-bottom: 100px;
-    
 }
 .failures_title{
     font-size: 40px;
@@ -108,18 +105,12 @@
 }
 
 
-
-
-
-
 /*-----------------------------------My Plan Styles------------------------------------*/
-
 
 .my_plan{
    padding-top: 120px;
    margin-bottom: 100px;
    
- 
 }
 
 .plan_title{
@@ -127,7 +118,6 @@
     font-size: 40px;
     font-weight: 700;
     padding-bottom: 50px;
-  
 }
 .skill{
     text-align: center;
@@ -159,10 +149,6 @@
     background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
     background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://bit.ly/2rlzaXi");
     background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://bit.ly/2rlzaXi"); /* The least supported option. */
-    
-    
-    
-    
 }
 .mindset_title{
     font-size: 40px;
@@ -177,10 +163,7 @@
     font-size: 20px;
     margin-left: 50px;
     border: none;
- 
 }
-
-
 /* ---------------------Footer Styles----------------------------- */
 .footer{
     display: flex;
@@ -190,7 +173,6 @@
     background: black;
     padding-top: 100px;
     margin-top: 100px;
-
 }
 .footer_left h1{
     font-size:50px ;
@@ -205,8 +187,11 @@
 .footer h6{
     font-size: 16px;
     padding-top: 10px;
+    
 }
-
+.i_con{
+    margin-top: 20px;
+}
 .footer_left .footer_description img{
     padding-top: 10px;
     font-size: 15px;
