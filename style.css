@@ -1,14 +1,17 @@
-/*Banner Styles*/
-
+/*-----------------------------Banner Styles-----------------------------*/
+*{
+    margin: 0;
+}
 .banner{
-    margin-top: 0;
+   padding: 150px 0 134px 0;
    background: url(images/banner/banner1.png);
-    padding: 300px 0 200px 0;
+    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 810px;
     text-align: right;
+
   
 }
 .banner_title{
@@ -17,19 +20,165 @@
     margin-bottom: 25px;
 }
 .banner_description{
-    font-size: 20px;
+    font-size: 25px;
     line-height: 1.5;
 }
 .btn_primari{
    margin-top: 20px;
-   padding: 25px 35px 25px 35px;
+   padding: 20px 25px;
    text-align: center;
    border-radius: 12px;
    background-color: #FD7A00;
-   font-size: 40px;
+   font-size: 30px;
    color: white;
 }
-/* My failures of previous year */
+/*------------------------- My failures of previous year------------------------------*/
 .my_failures{
+    padding-top: 120px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
 }
+.failures_title{
+    font-size: 40px;
+    
+}
+.failure_description{
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #484646;
+    line-height: 21.2pxpx;
+}
+ li{
+    list-style-type: circle;
+    color: #484646;
+}
+/*-----------------------------------My Plan Styles------------------------------------*/
+
+
+.my_plan{
+   padding-top: 120px;
+   margin-bottom: 100px;
+   
+ 
+}
+
+.plan_title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 50px;
+  
+}
+.skill img{
+    
+}
+.skill_contianer{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+    
+}
+.skill_title{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 15px;
+    text-align: center;
+}
+.skill_description{
+    color: #757575;
+    font-size: 22px;
+    text-align: center;
+}
+
+/* ---------------------------Positive Mindset---------------------------- */
+.mindset{
+    background: url(images/watch.png);
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    margin-left: 200px;
+    
+    
+    
+}
+.mindset_title{
+    font-size: 40px;
+    color: white;
+    padding-bottom: 20px;
+    margin-left: 50px;
+}
+.mindset_btn{
+    padding: 15px 40px;
+    color: #FD7A00;
+    background-color: aliceblue;
+    font-size: 20px;
+    margin-left: 50px;
+ 
+}
+
+
+/* ---------------------Footer Styles----------------------------- */
+.footer{
+    display: flex;
+    justify-content: center;
+    gap:200px;
+    color: white;
+    background: black;
+    padding-top: 100px;
+    margin-top: 100px;
+
+}
+.footer_left h1{
+    font-size:50px ;
+}
+.footer_left h1{
+    font-size:50px ;
+    
+}
+.footer_left .footer_description{
+    font-size: 16px;
+}
+.footer h6{
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.footer_left .footer_description img{
+    padding-top: 10px;
+    font-size: 15px;
+}
+.footer_right h3{
+    font-size: 30px;
+}
+input[type=text]{
+  width: 100%;
+  padding: 12px 25px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(221, 218, 218);
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: black;
+  color: white;
+}
+
+input[type=submit]{
+    background-color: #FD7A00;
+    border: none;
+    color: white;
+    padding: 16px 40px;
+    text-decoration: none;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+   
+
