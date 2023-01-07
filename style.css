@@ -1,20 +1,19 @@
 /*-----------------------------Banner Styles-----------------------------*/
 *{
     margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 .container{
-    width: 70%;
+    width: 85%;
     margin: 0 auto;
     }
 
 .banner{
-   padding: 150px 0 134px 0;
+   padding: 0 0 134px 0;
    background: url(images/banner/banner1.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    height: 810px;
     text-align: right;
 }
 .banner_title{
@@ -25,7 +24,7 @@
     
 }
 .banner_description{
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.5;
 }
 .btn_primari{
