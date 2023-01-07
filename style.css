@@ -2,15 +2,20 @@
 *{
     margin: 0;
 }
+.container{
+    width: 70%;
+    margin: 0 auto;
+    }
+
 .banner{
    padding: 150px 0 134px 0;
    background: url(images/banner/banner1.png);
-    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 810px;
     text-align: right;
+
 
   
 }
@@ -67,11 +72,14 @@
 .extra{
     background: url(images/extra1.jpeg);
     background-repeat: no-repeat;
-    padding-top: 200px;
+    padding-top: 170px;
     
     background-position: center;
     padding-bottom: 100px;
     text-align: center;
+    background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://bit.ly/2rlzaXi");
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://bit.ly/2rlzaXi"); /* The least supported option. */
 }
 .extra_heading{
 
@@ -120,15 +128,14 @@
     padding-bottom: 50px;
   
 }
-.skill img{
-    
+.skill{
+    text-align: center;
 }
 .skill_contianer{
     display: flex;
     justify-content: center;
     gap: 50px;
-    
-    
+        
 }
 .skill_title{
     font-size: 30px;
@@ -148,7 +155,10 @@
     padding-top: 100px;
     padding-bottom: 50px;
     background-repeat: no-repeat;
-    margin-left: 200px;
+    background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://bit.ly/2rlzaXi");
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://bit.ly/2rlzaXi"); /* The least supported option. */
+    
     
     
     
@@ -165,6 +175,7 @@
     background-color: aliceblue;
     font-size: 20px;
     margin-left: 50px;
+    border: none;
  
 }
 
